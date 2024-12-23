@@ -1,0 +1,105 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  header h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #444;
+    padding-bottom: 10px;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    font-size: 1rem;
+    color: #aaaaaa;
+    margin-bottom: 8px;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    color: #f5f5f5;
+    background: #2c2c2c;
+    border: 1px solid #444;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.6);
+    transition: border 0.3s, box-shadow 0.3s;
+  }
+  
+  input[type="text"]:focus,
+  textarea:focus {
+    border: 1px solid #6200ea;
+    box-shadow: 0 0 5px rgba(98, 0, 234, 0.8);
+    outline: none;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  .crear-historia,
+  .volver {
+    display: block;
+    width: 100%;
+    background: #6200ea;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.3s, transform 0.2s;
+    box-sizing: border-box;
+  }
+  
+  .crear-historia:hover,
+  .volver:hover {
+    background: #3700b3;
+    transform: translateY(-3px);
+  }
+  
+  .volver {
+    background: #444;
+    margin-top: 10px;
+  }
+  
+  .volver:hover {
+    background: #555;
+  }
+  
